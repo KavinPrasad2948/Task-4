@@ -7,6 +7,7 @@
     }
   })([1, 2, 3, 4, 5]);
   
+  
   // IIFE for converting strings to title case
   let titleCaps = (function(arr) {
     return arr.map(str => str.charAt(0).toUpperCase() + str.slice(1).toLowerCase());
